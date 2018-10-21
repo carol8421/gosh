@@ -1,0 +1,5 @@
+/*"if" { return KEYWORDIF; }
+"else" { return KEYWORDELSE; }
+"//".* /* ignore comments */
+[a-zA-Z_][a-zA-Z0-9_]* { return IDENTIFIER; }
+*/
